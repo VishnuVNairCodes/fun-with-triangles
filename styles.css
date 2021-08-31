@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #01cf8a;
+  --secondary-color: black;
+  --tertiary-color: white;
+  --hover-color: #01ad73;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+.nav-brand {
+  text-align: left;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+.nav-list {
+  text-align: right;
+  padding: 0.5rem;
+}
+.nav-links {
+  display: inline;
+  margin: 0.5rem;
+}
+.link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.hero-heading {
+  color: var(--tertiary-color);
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+}
+h3 {
+  margin-top: 1rem;
+}
+
+.quiz-form {
+  margin-top: 1rem;
+}
+.question-container {
+  margin-bottom: 4rem;
+  font-family: "PT Serif", serif;
+}
+p {
+  margin-bottom: 0.5rem;
+  color: var(--tertiary-color);
+}
+label {
+  margin-right: 0.5rem;
+  color: var(--tertiary-color);
+}
+
+button {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  font-size: larger;
+  margin-top: 2rem;
+}
+button:hover {
+  background-color: var(--hover-color);
+  transition: 0.3s;
+}
+
+.output-msg {
+  margin-top: 1rem;
+  font-size: x-large;
+  color: var(--tertiary-color);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+.footer-header {
+  color: var(--secondary-color);
+}
+.footer-links {
+  display: inline;
+  padding: 0.5rem;
+}
+
+/* ---------------Is Triangle-------------------- */
+
+.label-number-input {
+  display: block;
+  margin-top: 2rem;
+  color: var(--primary-color);
+  font-size: x-large;
+}
+
+.input-number {
+  margin-top: 0.5rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  border: solid var(--primary-color);
+  font-size: x-large;
+  outline: none;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+/*------------------------- Hypotenuse -----------------*/
+
+.hypotenuse-formula-heading {
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+/*-----------------------error-msg----------------------*/
+
+.error-msg {
+  color: red;
+}
